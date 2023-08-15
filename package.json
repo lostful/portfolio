@@ -1,0 +1,11 @@
+{
+  "name": "portfolio",
+  "main": "src/index.js",
+  "author": "@lostful",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.47.0"
+  }
+}

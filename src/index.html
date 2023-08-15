@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>@lostful</title>
+</head>
+<body>
+  <div class="container">
+    <img src="/img/1.png" alt="Portfolio image #1">
+    <img src="/img/2.png" alt="Portfolio image #2">
+    <img src="/img/3.png" alt="Portfolio image #3">
+  </div>
+
+  <style>
+    body {
+      background-color: #161616;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    .container img {
+      width: 800px;
+      display: block;
+      max-width: 100%;
+      margin: 10px auto;
+    }
+
+    @media(max-width: 600px) {
+      .container img {
+        width: 1600px;
+      }
+    }
+  </style>
+</body>
+</html>

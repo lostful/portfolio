@@ -1,0 +1,28 @@
+{
+  "env": {
+    "node": true,
+    "es2021": true
+  },
+  "extends": "eslint:recommended",
+  "overrides": [],
+  "rules": {
+    "indent": [ "error", 2, { "SwitchCase": 1 } ],
+    "quotes": [ "error", "double" ],
+    "semi": [ "error", "always" ],
+    "no-delete-var": 0,
+    "no-case-declarations": 0,
+    "no-unused-vars": [ "error", { "argsIgnorePattern": "^_", "varsIgnorePattern": "^_", "caughtErrorsIgnorePattern": "^_" } ],
+    "no-inner-declarations": 0,
+    "comma-dangle": 2,
+    "no-prototype-builtins": 0,
+    "arrow-parens": [ "error", "as-needed" ],
+    "no-global-assign": 0,
+    "space-before-blocks": 2,
+    "prefer-const": 2,
+    "no-trailing-spaces": [ "error", { "skipBlankLines": true } ],
+    "no-var": 2,
+    "eol-last": [ "error", "always" ],
+    "require-await": 2,
+    "no-fallthrough": 2
+  }
+}
